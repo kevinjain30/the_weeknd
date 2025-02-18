@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Oswald:wght@200..700&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #191a27;
+    /* background-image: linear-gradient(360deg,#191a27, #a7ab7747); */
+    color: white;
+    width: 70%;
+    margin: auto;
+    font-family: "Raleway", sans-serif;
+}
+
+#about-TW{
+    text-align: justify;
+}
+
+#links[open]{
+    background-color: #f7fdb147;
+}
+.images{
+    width: 300px;
+    transition: all 0.8s ease;
+}
+.images:hover{
+    width: 350px;
+    transform: translateY(-20px);
+}
+
+#exclamation{
+    font-size: 40px;
+}
+
+details summary{
+    padding-left: 20px;
+}
+
+details{
+    width: 100%;
+    height: 100%;
+    transition: padding 0.4s ease;
+    list-style: none;
+}
+details:hover{
+    padding: 20px;
+}
+
+#content details{
+    transition: all 0.4s ease;
+}
+#content details:hover{
+    padding: 20px;
+}
+
+#links.det{
+    display: inline-block;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    margin: 0;
+}
+#links.det:hover {
+    /* cursor: pointer; */
+    padding: 20px;
+}
+
+#SF{
+    background-image: linear-gradient(#f1ad6a, #f7fdb1);
+    color: transparent;
+    background-clip: text;
+    border-radius: 13px;
+    border-bottom: 3px dashed #f9ffb864;
+    border-top: 3px dashed #f9ffb864;
+    padding: 0px 15px;
+}
+
+.details-content, #links {
+    margin: 20px 0px;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 2px solid #f7fdb1;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 2px #f9ffb864;
+}
+
+.details-content[open]{
+    background-color: #f7fdb147;
+    border: 2px solid #f3ff6ebd;
+    transition: background-color 01s ease;
+}
+
+#headings{
+    text-align: center;
+}
+
+.player{
+    border: 2px solid #f7fdb1;
+    margin: 5px;
+}
+
+#SFt{
+    margin-bottom: 5px;
+}
+
+.images, .soulFood{
+    border-radius: 25px;
+    margin-top: 50px;
+    /* border: 3px solid #f7fdb147; */
+}
+
+#albums{
+    text-align: center;
+}
+
+.images, .titles{
+    text-align: center;
+}
+
+.titles{
+    font-family: "Bona Nova SC", serif;
+    color: #d3d6ad;
+}
+
+#headings{
+    font-size: 36px;
+    margin: 0;
+}
+
+h4{
+    display: inline-block;
+    font-size: 28px;   
+}
+
+#TheWeeknd{
+    font-family: "Oswald", serif;
+    font-size: 70px;
+    font-weight: 350;
+    margin: 0;
+    background-image: linear-gradient(#f1ad6a, #f7fdb1);
+    border-bottom: 3px dashed #f7fdb1;
+    background-clip: text;
+    color: transparent;
+    transition: font-size 1s ease;
+}
+#TheWeeknd:hover{
+    font-size: 90px;
+}
+
+.social-links{
+    display: inline-block;
+    color: #feffef;
+    margin: 0px 85px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#social-media a{
+    transition: all 0.5s ease;
+}
+#social-media a:hover{
+    font-size: 27px;
+    background-image: linear-gradient(#191a27, #191a27);
+    color: transparent;
+    background-clip: text;
+    text-decoration-color: #191a27;
+    font-weight: bold;
+}
+
+#trilogy{
+    border: 3px solid #ababab;
+    box-shadow: 0px 0px 50px 10px #060609;
+}
+#kiss-land{
+    border: 3px solid #26e68c;
+    box-shadow: 0px 0px 50px 10px #3cbd81;
+}
+#bbtm{
+    border: 3px solid #ffffff;
+    box-shadow: 0px 0px 50px 10px #f5f2ed;
+}
+#starboy{
+    border: 3px solid #ffcc00;
+    box-shadow: 0px 0px 50px 10px #ebbe0c;
+}
+#mdm{
+    border: 3px solid #ff4400;
+    box-shadow: 0px 0px 50px 10px #b04119;
+}
+#after-hours{
+    border: 3px solid #ff000d;
+    box-shadow: 0px 0px 50px 10px #690d11;
+}
+#dawn-fm{
+    border: 3px solid #00bfff;
+    box-shadow: 0px 0px 50px 10px #488194;
+}
+#hut{
+    border: 3px solid #f9f7e3;
+    box-shadow: 0px 0px 50px 10px #d6d4c1;
+}
+#soul-food{
+    border: 3px solid #5a5454;
+    box-shadow: 0px 0px 50px 10px #b8abab;
+}
+
+#links a{
+    display: inline-block;
+    padding: 10px;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+#links #trilogy-a:hover{
+    padding: 20px; 
+    background-color: #06060986; 
+    border: 2px solid #ababab;
+    box-shadow: 0px 0px 1000px 10px #060609;
+}
+#links #kiss-land-a:hover{
+    padding: 20px; 
+    background-color: #3cbd8186; 
+    border: 2px solid #26e68c;
+    box-shadow: 0px 0px 1000px 10px #3cbd81;
+}
+#links #bbtm-a:hover{
+    padding: 20px; 
+    background-color: #f5f2ed86; 
+    border: 2px solid #ffffff;
+    box-shadow: 0px 0px 1000px 10px #f5f2ed;
+}
+#links #starboy-a:hover{
+    padding: 20px; 
+    background-color: #ebbe0c86; 
+    border: 2px solid #ffcc00;
+    box-shadow: 0px 0px 1000px 10px #ebbe0c;
+}
+#links #mdm-a:hover{
+    padding: 20px; 
+    background-color: #b0411986; 
+    border: 2px solid #ff4400;
+    box-shadow: 0px 0px 1000px 10px #b04119;
+}
+#links #after-hours-a:hover{
+    padding: 20px; 
+    background-color: #690d1186; 
+    border: 2px solid #ff000d;
+    box-shadow: 0px 0px 1000px 10px #690d11;
+}
+#links #dawn-fm-a:hover{
+    padding: 20px; 
+    background-color: #48819486; 
+    border: 2px solid #00bfff;
+    box-shadow: 0px 0px 1000px 10px #488194;
+}
+#links #hut-a:hover{
+    padding: 20px; 
+    background-color: #d6d4c186; 
+    border: 2px solid #f9f7e3;
+    box-shadow: 0px 0px 1000px 10px #d6d4c1;
+}
+#links #sf-a:hover{
+    padding: 20px; 
+    background-color: #b8abab86; 
+    border: 2px solid #5a5454;
+    box-shadow: 0px 0px 1000px 10px #b8abab;
+}
+
+
+/* #links a{
+    display: inline-block;
+    padding: 10px;
+    transition: padding 0.3s ease;
+    border-radius: 10px;
+}
+#links a:hover{ 
+    padding: 20px; 
+    background-color: #f7fdb147; 
+    border: 2px solid #f3ff6ebd; 
+} */
+
+.tot{
+    font-size: bold;
+    font-size: 30px;
+}
+
+.left{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 120px;
+}
+.right{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+    margin-bottom: 50px;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+    width: 412px;
+    height: 100%;
+}
+.right:hover{
+    padding: 40px;
+    width: 450;
+    font-size: larger;
+
+}
+
+.right a{
+    text-decoration: none;
+    color: #f9f7e3;
+    margin: 0;
+    padding: 0;
+}
+.right a:hover{
+    font-size: 25px;
+    font-weight: bold;
+    transform: translateY(-3px);
+    text-decoration: underline;
+}
+
+.tri-r{
+    border: 3px solid #ababab;
+    background-color: #06060986;
+    box-shadow: 0px 0px 50px #060609;
+}
+.tri-r:hover{
+    box-shadow: 0px 0px 100px #060609;
+    background-color: #060609;
+}
+
+.kl-r{
+    border: 3px solid #26e68c;
+    background-color: #3cbd8186;
+    box-shadow: 0px 0px 50px 10px #3cbd81;
+}
+.kl-r:hover{
+    box-shadow: 0px 0px 100px #3cbd81;
+    background-color: #3cbd81;
+}
+
+.bbtm-r{
+    border: 3px solid #ffffff;
+    background-color: #f5f2ed70;
+    box-shadow: 0px 0px 50px 10px #f5f2ed;
+}
+.bbtm-r:hover{
+    box-shadow: 0px 0px 100px #f5f2ed;
+    /* background-color: #f5f2ed9e; */
+}
+
+.sb-r{
+    border: 3px solid #ffcc00;
+    background-color: #ebbe0c86;
+    box-shadow: 0px 0px 50px 10px #ebbe0c;
+}
+.sb-r:hover{
+    box-shadow: 0px 0px 100px #ebbe0c;
+    /* background-color: #ebbe0c; */
+}
+
+.mdm-r{
+    border: 3px solid #ff4400;
+    background-color: #b0411986;
+    box-shadow: 0px 0px 50px 10px #b04119;
+}
+.mdm-r:hover{
+    box-shadow: 0px 0px 100px #b04119;
+    background-color: #b04119;
+}
+
+.ah-r{
+    border: 3px solid #ff000d;
+    background-color: #690d1186;
+    box-shadow: 0px 0px 50px 10px #690d11;
+}
+.ah-r:hover{
+    box-shadow: 0px 0px 100px #690d11;
+    background-color: #690d11;
+}
+
+.dfm-r{
+    border: 3px solid #00bfff;
+    background-color: #48819486;
+    box-shadow: 0px 0px 50px 10px #488194;
+}
+.dfm-r:hover{
+    box-shadow: 0px 0px 100px #488194;
+    background-color: #488194;
+}
+
+.hut-r{
+    border: 3px solid #f9f7e3;
+    background-color: #d6d4c186;
+    box-shadow: 0px 0px 50px 10px #d6d4c1;
+}
+.hut-r:hover{
+    box-shadow: 0px 0px 100px #d6d4c1;
+    /* background-color: #d6d4c1; */
+}
+
+.explicit{
+    background-color: rgba(58, 57, 57, 0.534);
+    padding: 3px 5px;
+    font-size: 12px;
+    font-family: "Poppins", serif;
+    border-radius: 3px;
+}
+
+/* 
+.list-song{
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+} */
+
+/* #tri-div{
+    background-color: none;
+    border: 1px solid black;
+}
+#tri-div:hover{
+    background-image: url(./image.png);
+    object-fit:;
+    background-repeat: no-repeat;
+} */
