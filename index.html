@@ -355,8 +355,27 @@
                     <li>Future - "Low Life", "Comin Out Strong"</li>
                     <li>Travis Scott - "Wake Up"</li>
                 </ul>
-            </details>            
+            </details>
+            <details id="poll" name="drop" class="details-content det">
+                <summary><h4>Polling</h4></summary>
+                <div class="poll">
+                    <h2>Which is your favorite album?</h2>
+                    <form id="pollForm" class="polling-form">
+                        <label><input type="radio" name="album" value="Trilogy"> Trilogy</label><br>
+                        <label><input type="radio" name="album" value="Kiss Land"> Kiss Land</label><br>
+                        <label><input type="radio" name="album" value="Beauty Behind the Madness"> Beauty Behind the Madness</label><br>
+                        <label><input type="radio" name="album" value="Starboy"> Starboy</label><br>
+                        <label><input type="radio" name="album" value="My Dear Melancholy"> My Dear Melancholy</label><br>
+                        <label><input type="radio" name="album" value="After Hours"> After Hours</label><br>
+                        <label><input type="radio" name="album" value="Dawn FM"> Dawn FM</label><br>
+                        <label><input type="radio" name="album" value="Hurry Up Tomorrow"> Hurry Up Tomorrow</label><br>
+                        <button id="poll-btn" type="button" onclick="submitPoll()">Vote</button>
+                    </form>
+                    <p id="pollResult"></p>
+                </div>
+            </details>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

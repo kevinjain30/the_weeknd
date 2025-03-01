@@ -421,3 +421,31 @@ h4{
     object-fit:;
     background-repeat: no-repeat;
 } */
+
+.poll {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5);
+}
+.polling-form label input{
+    font-size: 18px;
+    margin: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkred;
+}
